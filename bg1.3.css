@@ -1,5 +1,6 @@
 .heading-content-1 {
     font-family: Pixel_Font;
+    color: grey;
     font-size: 2rem;
     text-align: center;
 
@@ -15,20 +16,17 @@
 
 .heading-content-3 {
     font-family: Pixel_Font;
-    color: grey;
     font-size: 2rem;
     text-align: center;
+
 }
 
 .width-fit {
     font-family: Pixel_Font;
-    align-items: right;
-    align-content: right;
+    display: flex;
+    justify-content: space-between;
     max-width: 750px;
-    padding: 30px;
-    width: fit-content;
-    z-index: 0;
-    transition: 0.2s all;  
+    padding: 27px;
    
 }
 
@@ -39,15 +37,12 @@
     color: #FFFFFF;
     padding: 1rem;
     gap: .75rem;
+    z-index: 0;
+    transition: 0.2s all;   
 }
 
 .next-row:hover{
     z-index: 1; 
     box-shadow: 0 8px 50px rgba(0,0,0,0.2);
     transform: scale(1.05);
-}
-
-.link {
-    color: black;
-
-}
+   }

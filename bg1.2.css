@@ -20,3 +20,29 @@
     text-align: center;
 
 }
+
+.width-fit {
+    font-family: Pixel_Font;
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    padding: 20px;
+   
+}
+
+.next-row {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    padding: 1rem;
+    gap: .75rem;
+    z-index: 0;
+    transition: 0.2s all;   
+}
+
+.next-row:hover{
+    z-index: 1; 
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+   }

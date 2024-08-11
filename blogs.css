@@ -51,23 +51,3 @@
     padding: 30px;
     justify-content: center;
 }
-
-.next-row {
-    text-decoration: none;
-    border-radius: 0.5rem;
-    background-color: #1D1D1D;
-    color: #FFFFFF;
-    padding: 1rem;
-    gap: .75rem;
-
-}
-
-.width-fit {
-    font-family: Pixel_Font;
-    align-items: right;
-    align-content: right;
-    max-width: 750px;
-    padding: 30px;
-    width: fit-content;
-   
-}
