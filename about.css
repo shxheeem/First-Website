@@ -162,3 +162,15 @@ menu, ol, ul {
 .icon-text i {
     margin-right: 8px
 }
+
+.total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    max-width: 750px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+
+}
